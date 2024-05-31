@@ -20,7 +20,8 @@
         "lavender": [168, 168, 168],
         "blue": [90, 90, 90],
         "surface0": [46, 46, 46],
-        "surface2": [64, 64, 64]
+        "surface2": [64, 64, 64],
+        "white":[220,220,220]
     },
     "palette": {
         "Window": "base",
@@ -31,14 +32,14 @@
         "ToolTipText": "surface2",
         "Text": "text",
         "Button": "base",
-        "ButtonText": "surface2",
+        "ButtonText": ["~","sky","white",200],
         "BrightText": "surface2",
         "Link": "rosewater",
         "Highlight": "sky",
         "HighlightedText": "base",
         "Light": "surface2",
         "MenuBar": "base",
-        "MenuBarText": "menu_text"
+        "MenuBarText": "sky"
     },
     "theme-colors": {
         "addressColor": "green",
@@ -57,23 +58,23 @@
         "graphBackgroundLightColor": "base",
         "graphNodeDarkColor": "base",
         "graphNodeLightColor": "base",
-        "graphNodeOutlineColor": "surface2",
+        "graphNodeOutlineColor": "sky",
+        "graphNodeShadowColor":["~","sky","base",190],
         "trueBranchColor": "green",
         "falseBranchColor": "red",
         "unconditionalBranchColor": "sky",
         "altTrueBranchColor": "sky",
         "altFalseBranchColor": "red",
         "altUnconditionalBranchColor": "sky",
-        "registerColor": "red",
+        "registerColor": ["+","red","white"],
         "numberColor": "yellow",
         "codeSymbolColor": "green",
         "dataSymbolColor": "lavender",
         "stackVariableColor": ["+", "text", "sky"],
         "importColor": ["+", "text", "green"],
-        "instructionHighlightColor": ["~", "surface2", "base", 50],
-        "tokenHighlightColor": "lavender",
+        "tokenHighlightColor": "blue",
         "annotationColor": "text",
-        "opcodeColor": "surface2",
+        "opcodeColor": ["~","sky","white",200],
         "linearDisassemblyFunctionHeaderColor": "base",
         "linearDisassemblyBlockColor": "base",
         "linearDisassemblyNoteColor": "base",
@@ -85,7 +86,7 @@
         "uncertainColor": "sky",
         "scriptConsoleOutputColor": "text",
         "scriptConsoleErrorColor": "red",
-        "scriptConsoleEchoColor": "green",
+        "scriptConsoleEchoColor": ["~","sky","white",180],
         "blueStandardHighlightColor": "blue",
         "greenStandardHighlightColor": "green",
         "cyanStandardHighlightColor": "sky",
@@ -94,6 +95,7 @@
         "yellowStandardHighlightColor": "yellow",
         "orangeStandardHighlightColor": ["+", "yellow", "red"],
         "whiteStandardHighlightColor": "text",
-        "blackStandardHighlightColor": "base"
+        "blackStandardHighlightColor": "base",
+        "instructionHighlightColor": ["~", "sky", "white",180]
     }
 }
